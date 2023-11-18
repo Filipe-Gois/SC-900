@@ -1,0 +1,236 @@
+Revisando conteúdo do AZ-900 para ter uma base pro SC-900
+
+Conceito de nuvem (AZ-900)
+{
+    Computação em nuvem: é a entrega de serviços por meio da internet
+
+    Modelos de nuvem: nuvem pública, privada e híbrida
+
+    Pública: qualquer pessoa que quiser pode acessar o serviço
+    {
+        n tem despesa de capital p escalar verticalmente
+        organizações pagam pelo q usam
+    }
+
+
+    Privada: Somente uma certa organização pode ter acesso, informações devem ser criptografadas
+    {
+        hardware deve ser adquirido para inicialização e manutenção
+        organizações têm controle total sobre recursos e segurança
+    }
+
+    Híbrida: É a junção entre o tipo de nuvem pública e privada
+    {
+        oferece maior flexibilidade
+        organizações determinam como executar seus aplicativos
+
+    }
+
+    LGPD: lei brasileira sobre armazenamento de dados
+
+    Bnefícios da nuvem: escalabilidade, alta disponibilidade, agilidade e recuperação de desastre, segurança, alcance global
+
+
+    Escala horizontal: criar outra máquina virtual (horizontalmente) cada vez que a antiga estiver quase sobrecarregada
+    Escala vertical: quando deixa de ter a escala horizontal
+
+    Elasticidade: após o tráfego normalizar, a azure apaga as outras máquinas virtuais criadas
+
+    Tolerância à falhas: servidor robusto, n importa oq aconteça, ele não cai
+
+
+
+    CapEx: despesas de capital
+    {
+        o gasto de dinheiro inicial na infraestrutura física
+
+        O custo do CapEx pe reduzido ao longo do tempo
+    }
+    OpEx: despesas operacionais
+    {
+        Gastos em produtos e serviços conforme necessário, pagamento conforme o uso
+        Receber a conta imediatamente
+        
+    }
+    Em nuvem, vc aplica mais o conceito de OpEx
+
+    Cobrança do serviço é feita por consumo.
+
+    Blob: serviço de armazenamento da azure
+
+
+
+    Serviços de nuvem:
+    {
+        Local
+        {
+
+        }
+        IaaS
+        {
+            infraestrutura como serviço
+            *Usar a base da azure*
+            Local
+            Criar uma estrutura de TI de pagamento conforme o uso de
+
+            Ex: maquinas virtuais
+            Serviço de nuvem mais flexível
+
+
+        }
+
+        PaaS
+        {
+            Plataforma como serviço
+
+            Foco no dev de apli
+        }
+
+        SaaS
+        {
+            Software como serviço
+            Ex: office 365, gmail
+        }
+
+        *A partir do IaaS, o provedor é responsável por computação, rede e armazenamento*
+    }
+}
+
+
+SC-900: introdução:
+{
+    Defesa de profundidade (proteção completa):
+    {
+        segurança física >
+        {
+            só pessoas autorizadas podem ter acesso ao BD
+        }
+        identidade e acesso >
+        perímetro >
+        rede > 
+        computação > 
+        aplicativo >
+        dados
+    }
+
+    DOS: uma máquina para atacar um servidor
+    DDOS: várias máquinas para atacar um servidor
+
+
+
+    CIA: confiadencialidade, integridade, disponibilidade
+    {
+        confiadencialidade: necessidade de manter os dados confidenciais, ex: senhas, dados financeiros
+
+        integridade: manter os dados e as mensagens corretas. Ex: vc faz um bolo e dx ele na geladeira. Após algum tempo vc vai na geladeira e vê q ele n está como vc deixou.
+
+        disponibilidade: disponibilizar os dados àqueles que precisam deles
+    }
+
+
+    Modelo Confiança Zero (microsoft)
+    {
+        "Não confie em ninguém, verifique tudo"
+
+
+        Princípios:
+
+        1º: identidade
+        2º: dispositivos
+        3º aplicativos
+        4º dados
+        5º infraestrutura
+        6º redes
+    }
+
+    Criptografia:
+    {
+        processo de tornar dados ilegíveis e inutilizáveis para visualizadores não autorizados
+
+        *Criptografia de dados em repouso = dados criptografados de um HD
+        *Criptografia de dados em trânsito Ex:requisição
+        *Criptografia em dados em uso Ex: VPN
+
+
+        Tipos de Criptografia
+        {
+            Simétrica:
+            {
+                Chave compartilhada => chave compartilhada(criptografada)
+            }
+            Assimétrica:
+            {
+                Chave públic => chave privada(criptografada)
+                Ex: whats
+            }
+        }
+
+        Hash:
+        {
+            Usa um algoritmo para converter um texto original em um valor de hash exclusivo
+
+            Funções do hash:
+            {
+                Determinísticas, a mesma entrada possui a mesma saída
+
+                Um identificador exclusivo de seus dados associados
+
+                São diferentes das Criptografias, pois o valor da hash não é descriptografado posteriormente para o original
+
+                Usadas para armazenar senhas. A senha é camuflada para mitigar o risco de ataque de dicionário de força bruta
+            }
+        }
+
+            Conceitos de conformidade:
+            {
+                Os regulamentos de residência de dados – Regem os locais físicos em que os dados podem ser armazenados
+                e como e quando eles podem ser transferidos, processados ou acessados internacionalmente.
+
+                Soberania de dados – Os dados, principalmente, os pessoais, estão sujeitos a leis e regulamentos do país/região em que
+                são coletados, mantidos ou processados fisicamente.
+
+                Privacidade de dados – Fornecer aviso e ser transparente em relação a coleta, processamento, uso e compartilhamento
+                de dados pessoais são princípios fundamentais das leis e regulamentos de privacidade.
+            }
+
+            Autenticação e autorização:
+            {
+                Autenticação(authN): provar que uma pessoa érealmente quem ela diz ser. A Autenticação permite ACESSO.
+
+                Autorização(authZ): determina o nível de acesso ou as permissões que determinada pessoa tem ao acessar algo.
+
+                Identidade: é a forma como alguém ou algo pode ser verificado e autenticado, pode ser associado a um usuário, aplicativo, dispositivo, etc.
+            }
+
+            IDP(provedor de identidade): 
+            {
+                é o ponto central da Autenticação moderna
+
+                oferece serviçõs de Autenticação, autorização e auditoria
+
+                
+            }
+
+            Active Directory(AD):
+            {
+
+            }
+
+            Federação
+            {
+                *Relação de confiança*
+                
+                O site usa os serviços de autenticação do IdP-A (provedor de
+                identidade A).
+
+                O usuário faz a autenticação com o IdP-B (provedor de
+                identidade B).
+
+                O IdP-A tem uma relação de confiança configurada com
+                o IdP-B.
+
+                Quando o usuário entra no site, o site pode confiar nas
+                credenciais do usuário e permitir o acesso.
+            }
+    }
+}
