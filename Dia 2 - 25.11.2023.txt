@@ -64,5 +64,7 @@ conceito de identidades híbridas:
         ruim: senhas fáceis ex: 12345, password
         bom: sms, serviço de visualizadores
         melhor: microsoft authenticator
+
+        Padrão OATH
     }
 }
