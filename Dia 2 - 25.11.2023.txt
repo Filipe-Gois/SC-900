@@ -1,0 +1,28 @@
+Paas em relação ao Iaas: elimina-se o S.O (não precisa instalar o)
+
+Paas: vai na azure e habilita o
+
+IAAS: fzer a comida em casa do 0
+PAAS: pedir comida no ifood(vc usa a Plataforma de um terceiro e só insere a forma de pagamento, endereço)
+SAAS: restaurante self-service (tá tudo pronto, você só monta o prato e come)
+
+
+Proteção completa(Defesa de profundidade):{
+    segurança física >
+        {
+            só pessoas autorizadas podem ter acesso ao BD
+        }
+        identidade e acesso > ter autorização para entrar no "haal" dos DB
+
+        perímetro > D.O.S ou D.D.O.S  || microsoft 
+
+        rede > 
+
+        computação > Oq pode entrar e sair
+        aplicativo >
+        dados > 
+}
+
+azure adds: nuvem
+azure ad: autenticador p tudo
+

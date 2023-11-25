@@ -29,20 +29,26 @@ Conceito de nuvem (AZ-900)
     LGPD: lei brasileira sobre armazenamento de dados
 
     Bnefícios da nuvem: escalabilidade, alta disponibilidade, agilidade e recuperação de desastre, segurança, alcance global
+    {
 
+    
+
+    Escalabilidade:{
 
     Escala horizontal: criar outra máquina virtual (horizontalmente) cada vez que a antiga estiver quase sobrecarregada
-    Escala vertical: quando deixa de ter a escala horizontal
+    Escala vertical: "É o hardware das máquinas virtuais" Melhorar o hardware dessa máquina, com mais memória ram, um processador melhor, etc.
+    }
 
     Elasticidade: após o tráfego normalizar, a azure apaga as outras máquinas virtuais criadas
 
     Tolerância à falhas: servidor robusto, n importa oq aconteça, ele não cai
-
+    }
 
 
     CapEx: despesas de capital
     {
         o gasto de dinheiro inicial na infraestrutura física
+        Ex: lan house (comprar os computadores, etc)
 
         O custo do CapEx pe reduzido ao longo do tempo
     }
@@ -50,6 +56,7 @@ Conceito de nuvem (AZ-900)
     {
         Gastos em produtos e serviços conforme necessário, pagamento conforme o uso
         Receber a conta imediatamente
+        Ex: Conta de luz
         
     }
     Em nuvem, vc aplica mais o conceito de OpEx
@@ -106,7 +113,7 @@ SC-900: introdução:
             só pessoas autorizadas podem ter acesso ao BD
         }
         identidade e acesso >
-        perímetro >
+        perímetro > Proteger contra DOS e DDOS
         rede > 
         computação > 
         aplicativo >
@@ -132,15 +139,22 @@ SC-900: introdução:
     {
         "Não confie em ninguém, verifique tudo"
 
+    Princípios:
+    {
+        verificação explícita: verificação
+        acesso com privilégio mínimo
+        Pressupor a violação
+    }
 
-        Princípios:
-
-        1º: identidade
+        Pilares:
+        {
+        1º: identidade > ver se a pessoa é quem diz ser
         2º: dispositivos
         3º aplicativos
         4º dados
         5º infraestrutura
         6º redes
+        }
     }
 
     Criptografia:
@@ -151,6 +165,7 @@ SC-900: introdução:
         *Criptografia de dados em trânsito Ex:requisição
         *Criptografia em dados em uso Ex: VPN
 
+        https: 443 garantia q o caminho pelo qual os dados passam está criptografado
 
         Tipos de Criptografia
         {
@@ -202,7 +217,7 @@ SC-900: introdução:
                 Identidade: é a forma como alguém ou algo pode ser verificado e autenticado, pode ser associado a um usuário, aplicativo, dispositivo, etc.
             }
 
-            IDP(provedor de identidade): 
+            *IDP (provedor de identidade): 
             {
                 é o ponto central da Autenticação moderna
 
