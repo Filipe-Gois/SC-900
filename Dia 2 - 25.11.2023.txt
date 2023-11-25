@@ -1,3 +1,5 @@
+--Revisão
+
 Paas em relação ao Iaas: elimina-se o S.O (não precisa instalar o)
 
 Paas: vai na azure e habilita o
@@ -24,5 +26,43 @@ Proteção completa(Defesa de profundidade):{
 }
 
 azure adds: nuvem
-azure ad: autenticador p tudo
+azure ad: autenticador local para 
 
+
+
+
+----------
+
+
+
+
+Microsoft Entra: abrange as funcionalidades de identidade e acesso
+
+
+Usuário: representação da identidade de uma pessoa
+dispositivo: unidade de hardware ex: notebook, dispositivos móveis
+entidade de serviço: identidade de um aplicativo
+identidade gerenciada: um tipo de entidade de serviço.
+
+
+Identidades externas no azure AD:
+{
+   colaboraçã B2B:
+
+   colaboraçã B2C: 
+}
+
+conceito de identidades híbridas:
+{
+    é uma identidade de usuário comum p Autenticação e autorização de todos os recursos, independentemente da localização (local e na nuvem)
+    Azure AD connect:
+
+    métodos de autenticação:
+    {
+        mais comum: autenticação federada
+
+        ruim: senhas fáceis ex: 12345, password
+        bom: sms, serviço de visualizadores
+        melhor: microsoft authenticator
+    }
+}
