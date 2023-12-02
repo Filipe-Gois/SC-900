@@ -1,0 +1,105 @@
+Revisão do dia 2:
+{
+    azure ad: provedor de identidade
+    provê identidade p dispositivos, parceiros comerciais, aplicativos locais, active directory local, nuvem publica do azure(office 365)
+
+    B2B: business to business (empresa p empresa)
+    permite compartilhar aplicativos e recursos com usuarios externos
+
+    B2C: business to client
+    serviços oferecidos pelas empresas aos seus cientes
+
+    azure adds: local
+
+    azure ad connect: sincroniza o local com a nuvem (híbrida)
+
+    identidade híbrida: identidade local e na nuvem
+
+    alterar senha: trocar qnd ta fraca
+
+    redefinir senha: qnd vc esquece a senha
+
+    listas de senhas banidas: senhas "manjadas" n são aceitas
+
+    proteger-se contgra pulverização de senha: sofrendo ataques com essas senhas manjadas e a azure bloqueia o acesso
+
+    BYOD
+    MFA: autenticação multifator
+    
+}
+
+Módulo 3:
+{
+    acesso condicional:
+    {
+        sinais de acesso condicional:
+        {
+
+        associação de usuario ou grupo
+        dispositivos
+        aplicativo
+
+        }
+
+        controladores de acesso:
+        {
+            bloquear acesso,
+            conceder acesso,
+            exija q uma ou mais condições seja atendidas antes de conceder acesso,
+            controlar o acesso do usuario com base
+        }
+    }
+
+    RBAC(Controle de acesso baseado em função) e funções dentro do azure ad
+    {
+        *acesso baseado em função*
+        As funções do azure AD controlam permissões para gerenciar recursos do azure AD.
+        conceder acesso apenas para
+    }
+}
+x   
+Módulo 4:
+{
+    governança de identidade do azure:
+    {
+        Tarefas do azure AD Identity:
+        {
+            controlar o ciclo de vida de identidade
+            controlar o ciclo de vida de acesso
+            proteger o acesso privilegiado para a administração
+        }
+        ciclo de vida de identidade:
+        {
+            ingressar: criação da nova identidade
+            mover: atualizar autorizações de acesso
+            sair: o acesso pode precisar ser removido
+        }
+    }
+
+    PIM (Privileged identity management)
+    {
+
+
+        Ele permite q vc gerencie, controle e monitore o acesso a recursos importantes em sua organização
+
+
+        just-in-time: fornece acesso privilegiado somente quando necessário, não antes
+        Calendário: atribuir a data q ser[a realizado o serviço
+        Visualizável: envia notificações quando funções com privilégios são ativadas
+        Auditável: permite que um histórico de acesso completo seja baixado
+    }
+
+    azure identity protection
+    {
+        serviço que protege a identidade dde um usuário
+
+        Permite as organizações realizarem 3 tarefas essenciais:
+        {
+            Automatizar a detecção e a correção de riscos baseados em identidade.
+
+            Investigar os riscos usando os dados no portal.
+
+            Exportar os dados de detecção de riscos a utilitários de terceiros para análise adicional.
+        }
+    }
+}
