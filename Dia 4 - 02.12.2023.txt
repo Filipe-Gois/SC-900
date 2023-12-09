@@ -1,0 +1,42 @@
+Proteção da Azure contra DDOS
+{
+    plano gratuito e pago
+}
+
+firewalls
+{
+firewall : bloqueia acessos indesejados "há tanto hardware quanto software p essa função
+
+firewall do Azure: protege seus recursos da rede virtual do Microsoft Azure (vnet) contra invasores
+
+WAF (firewall do aplicativo web)
+
+Azure Bastion: intermediário entre usuário e VMS()
+
+tipos de firewall:
+{
+nsg: firewall de máquina (protege a placa de rede do pc e sua sub-net) máquina virtual
+
+prioridade: 0-1000 quanto menor, mais prioridade terá
+}
+}
+
+
+
+Módulo 3
+{
+SIEM: gerenciamento de evento e incidentes de segurança 
+(MONITORAMENTO)
+
+
+SOAR:
+Ação
+
+
+Microsoft SENTINEL: junção do SIEM e SOAR
+}
+
+Módulo 4
+{
+
+}
