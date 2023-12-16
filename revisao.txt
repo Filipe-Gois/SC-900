@@ -1,0 +1,22 @@
+nsg: grupo de segurança. É um firewall de máquina
+
+azure firewall: traduz o meu ip privado para um ip publico na internet
+
+waf: proteger aplicação web
+
+vnet: rede virtual (tipo as redes do senai). É importante fracionar a rede (por ser mais fácil para isolar o problema e ter mais controle)
+
+
+Bastion: intermediário para controlar quais máquinas podem ou não acessar a internet
+
+key vault: cofre que armazena informações sigilosas
+
+SIEM: coletar dados de todo o espaço
+
+SOAR:resposta automatizada de orquestraçao de segurança
+
+Microsoft Sentinel: junção do SIEM e do SOAR (coletar os dados, detectar ameaças, investigar, responder aos incidentes)
+
+
+Shadow IT: "sombra" das suas ações (deixa arquivado as suas ações, ex: arquiva q vc excluiu uma pasta)
+

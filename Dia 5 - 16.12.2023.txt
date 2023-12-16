@@ -16,4 +16,6 @@ Módulo 4
     {
         conceito de proteger seus dados de serem divulgados negligentemente
     }
+
+    eDiscovery (eDescoberta, Descoberta eletronica): é o processo de identificação e entrega de informações eletronicas que podem ser usadas como evidencia em casos legais
 }
