@@ -1,0 +1,19 @@
+Módulo 4 
+{
+    Microsoft Priva:
+    {
+        Gerenciamento de risco de privacidade
+
+    }
+
+    Portal de conformidade do Microsoft Purview
+    {
+        Faz Um panorama de como a organização está
+        atendendo às exigências de conformidade.
+    }
+
+    DLP: chave de proteção do rótulo
+    {
+        conceito de proteger seus dados de serem divulgados negligentemente
+    }
+}
